@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kevin Enrique García Camargo — Portafolio</title>
+    <meta name="description" content="Portafolio web de Kevin: proyectos, habilidades y contacto." />
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+    <header class="site-header" role="banner">
+        <div class="brand">
+            <img src="assets/img/foto_perfil.png" width="80" height="80" alt="Fotografía de Kevin" class="avatar" />
+            <div>
+                <h1 data-i18n="name">Kevin Enrique García Camargo</h1>
+                <p class="subtitle" data-i18n="tagline">
+                    Desarrollador Full Stack en formación
+                </p>
+            </div>
+        </div>
+        <nav class="site-nav" aria-label="Principal">
+            <button class="nav-toggle" aria-expanded="false" aria-controls="menu">
+          ☰
+        </button>
+            <ul id="menu">
+                <li><a href="#about" data-i18n="nav_about">Sobre mí</a></li>
+                <li><a href="#projects" data-i18n="nav_projects">Proyectos</a></li>
+                <li><a href="#skills" data-i18n="nav_skills">Habilidades</a></li>
+                <li><a href="#certs" data-i18n="nav_certs">Certificaciones</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">Contacto</a></li>
+                <li><a href="#cv" data-i18n="nav_cv">CV</a></li>
+            </ul>
+        </nav>
+        <div class="lang-switcher" aria-label="Selector de idioma">
+            <label for="lang" data-i18n="label_language">Idioma:</label>
+            <select id="lang" aria-label="Idioma">
+          <option value="es">ES</option>
+          <option value="en">EN</option>
+          <option value="fr">FR</option>
+        </select>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero" aria-labelledby="hero-title">
+            <div>
+                <h2 id="hero-title" data-i18n="hero_title">
+                    Construyo soluciones reales con código y disciplina.
+                </h2>
+                <p data-i18n="hero_text">
+                    Portafolio enfocado en proyectos, buenas prácticas y un diseño limpio y responsivo.
+                </p>
+                <a class="btn" href="#projects" id="about" data-i18n="hero_cta">Ver proyectos</a
+          >
+        </div>
+      </section>
+
+      <section aria-labelledby="about-title">
+        <h2 id="about-title" data-i18n="about_title">Sobre mí</h2>
+        <p data-i18n="about_body">
+          Soy estudiante de Ingeniería en Tecnologías de la Información e
+          Innovación Digital en UPSIN (Mazatlán). Me especializo en desarrollo
+          web (HTML, CSS, JS) y bases de datos. Me interesa crear productos
+          útiles, accesibles y bien diseñados. Busco prácticas profesionales
+          donde pueda aportar y seguir aprendiendo.
+        </p>
+        <ul class="quick-facts">
+          <li>
+            <strong data-i18n="about_location_label">Ubicación:</strong>
+            <span data-i18n="about_location">Mazatlán, México</span>
+          </li>
+          <li>
+            <strong data-i18n="about_focus_label" id="projects">Perfil:</strong>
+            <span data-i18n="about_focus"
+              >Desarrollador Web / Full Stack Jr.</span
+            >
+          </li>
+          <li>
+            <strong>Email:</strong>
+            <a href="mailto:kevin.garcia@upsin.edu.mx"
+              >kevin.garcia@upsin.edu.mx</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="projects-title">
+        <h2 id="projects-title" data-i18n="projects_title">
+          Proyectos principales
+        </h2>
+        <div class="cards">
+          <article class="card project">
+            <h3 data-i18n="proj_eth_title">Ética Profesional (TI)</h3>
+            <p class="desc" data-i18n="proj_eth_desc">
+              Sitio informativo y responsivo del programa de la asignatura Ética
+              Profesional (TI): navegación fija, secciones con tarjetas,
+              tipografía legible y buen contraste. Optimizado para móvil y
+              escritorio.
+            </p>
+            <p class="tech">
+              <strong data-i18n="tech_label">Tech:</strong>
+              <span data-i18n="proj_eth_tech">HTML, CSS</span>
+            </p>
+            <p class="links">
+              <a
+                href="https://kegc2006.github.io/responsivo/"
+                target="_blank"
+                rel="noopener"
+                data-i18n="demo"
+                >Demo</a
+              >
+              ·
+              <a
+                href="https://github.com/kegc2006/responsivo"
+                target="_blank"
+                rel="noopener"
+                data-i18n="github"
+                >GitHub</a
+              >
+            </p>
+          </article>
+          <article class="card project">
+            <h3 data-i18n="proj_seiko_title">Seiko Mods Mazatlán</h3>
+            <p class="desc" data-i18n="proj_seiko_desc">
+              Página web desarrollada para la marca
+              <strong>Seiko Mods Mazatlán</strong>, enfocada en la
+              personalización y venta de relojes automáticos con movimientos
+              NH35 y piezas de alta calidad. Incluye un diseño elegante,
+              secciones para modelos, servicios y contacto, con enfoque en
+              experiencia de usuario y presentación profesional.
+            </p>
+            <p class="tech">
+              <strong data-i18n="tech_label">Tech:</strong>
+              <span data-i18n="proj_seiko_tech">HTML, CSS</span>
+            </p>
+            <p class="links">
+              <a
+                href="https://kegc2006.github.io/proyecto_web/"
+                target="_blank"
+                rel="noopener"
+                data-i18n="demo"
+                >Demo</a
+              >
+              ·
+              <a
+                href="https://github.com/kegc2006/proyecto_web"
+                target="_blank"
+                rel="noopener"
+                data-i18n="github"
+                id="skills"
+                >GitHub</a
+              >
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="skills-title">
+        <h2 id="skills-title" data-i18n="skills_title">Habilidades técnicas</h2>
+        <div class="skills-grid">
+          <div>
+            <h3 data-i18n="skills_langs">Lenguajes</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>SQL (MySQL/MariaDB)</li>
+              <li>PHP</li>
+              <li>C/C++</li>
+            </ul>
+          </div>
+          <div>
+            <h3 data-i18n="skills_frameworks">Frameworks / Libs</h3>
+            <ul>
+              <li>Bootstrap (básico)</li>
+              <li>SFML (C++, básico)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 data-i18n="skills_tools">Herramientas</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>VS Code</li>
+              <li>Figma (básico)</li>
+              <li>Linux (básico)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="certs" aria-labelledby="certs-title">
+        <h2 id="certs-title" data-i18n="certs_title">Certificaciones y reconocimientos</h2>
+<ul class="certs">
+  <li>
+    <strong data-i18n="org_cisco">Cisco Networking Academy</strong>:
+    <span data-i18n="cert_html_essentials">HTML Essentials</span>
+    <a href="assets/certificados/html_certificado.pdf" target="_blank" rel="noopener">
+      <span data-i18n="view_cert">Ver certificado</span>
+    </a>
+                </li>
+                <li>
+                    <strong data-i18n="org_cisco">Cisco Networking Academy</strong>:
+                    <span data-i18n="cert_css_essentials">CSS Essentials</span>
+                    <a href="assets/certificados/css_certificado.pdf" target="_blank" rel="noopener">
+                        <span data-i18n="view_cert">Ver certificado</span>
+                    </a>
+                </li>
+                </ul>
+
+        </section>
+
+        <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title" data-i18n="contact_title">Contacto</h2>
+            <p data-i18n="contact_text">¿Colaboramos? Escríbeme:</p>
+            <p>
+                <a class="btn" href="mailto:kevin.garcia.camargo@gmail.com">kevin.garcia.camargo@gmail.com</a
+          >
+        </p>
+      </section>
+
+      <section id="cv" aria-labelledby="cv-title">
+        <h2 id="cv-title" data-i18n="cv_title">Currículum (PDF)</h2>
+        <p>
+          <a
+            class="btn"
+            href="assets/cv/Kevin_Garcia_CV.pdf"
+            download
+            data-i18n="cv_download"
+            >Descargar CV</a
+          >
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        &copy; <span id="year"></span> Kevin Enrique García Camargo ·
+        <a href="#main" data-i18n="back_to_top">Volver arriba</a>
+            </p>
+            </footer>
+
+            <script src="script.js" defer></script>
+</body>
+
+</html>
