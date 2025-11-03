@@ -1,5 +1,25 @@
 const i18n = {
     es: {
+        skills_title: "Habilidades técnicas",
+        skills_langs: "Lenguajes",
+        skills_frameworks: "Frameworks / Librerías",
+        skills_tools: "Herramientas",
+
+        lang_html: "HTML5",
+        lang_css: "CSS3",
+        lang_js: "JavaScript",
+        lang_sql: "SQL (MySQL/MariaDB)",
+        lang_php: "PHP",
+        lang_cpp: "C/C++",
+
+        fw_bootstrap: "Bootstrap (básico)",
+        fw_sfml: "SFML (C++, básico)",
+
+        tool_git: "Git & GitHub",
+        tool_vscode: "VS Code",
+        tool_figma: "Figma (básico)",
+        tool_linux: "Linux (básico)",
+
         org_cisco: "Cisco Networking Academy",
         cert_html_essentials: "HTML Essentials",
         cert_css_essentials: "CSS Essentials",
@@ -58,6 +78,26 @@ const i18n = {
 
     },
     en: {
+        skills_title: "Technical skills",
+        skills_langs: "Languages",
+        skills_frameworks: "Frameworks / Libs",
+        skills_tools: "Tools",
+
+        lang_html: "HTML5",
+        lang_css: "CSS3",
+        lang_js: "JavaScript",
+        lang_sql: "SQL (MySQL/MariaDB)",
+        lang_php: "PHP",
+        lang_cpp: "C/C++",
+
+        fw_bootstrap: "Bootstrap (basic)",
+        fw_sfml: "SFML (C++, basic)",
+
+        tool_git: "Git & GitHub",
+        tool_vscode: "VS Code",
+        tool_figma: "Figma (basic)",
+        tool_linux: "Linux (basic)",
+
         org_cisco: "Cisco Networking Academy",
         cert_html_essentials: "HTML Essentials",
         cert_css_essentials: "CSS Essentials",
@@ -116,6 +156,26 @@ const i18n = {
 
     },
     fr: {
+        skills_title: "Compétences techniques",
+        skills_langs: "Langages",
+        skills_frameworks: "Frameworks / Librairies",
+        skills_tools: "Outils",
+
+        lang_html: "HTML5",
+        lang_css: "CSS3",
+        lang_js: "JavaScript",
+        lang_sql: "SQL (MySQL/MariaDB)",
+        lang_php: "PHP",
+        lang_cpp: "C/C++",
+
+        fw_bootstrap: "Bootstrap (basique)",
+        fw_sfml: "SFML (C++, basique)",
+
+        tool_git: "Git & GitHub",
+        tool_vscode: "VS Code",
+        tool_figma: "Figma (basique)",
+        tool_linux: "Linux (basique)",
+
         org_cisco: "Cisco Networking Academy",
         cert_html_essentials: "HTML Essentials",
         cert_css_essentials: "CSS Essentials",
